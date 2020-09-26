@@ -21,10 +21,6 @@ $calender = [
      
   "January" => "１月",
   "February" => "２月",
-  /**
-   * 、を,に変更
-   */
-   
   "March" => "３月",
   "April" => "４月",
   "May" => "５月",
@@ -39,9 +35,6 @@ $calender = [
 
 // 12月を表示する
 echo $calender["December"];
-/**
- * Decemberを11に変更
- */
  
 ?>
 
