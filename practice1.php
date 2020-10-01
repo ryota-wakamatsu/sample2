@@ -1,11 +1,11 @@
 <?php
 $name = "ryota";
-if ($name = "ryota") {
-    echo "私は あなたの名前 です";
+if ($name === "ryota") {
+    echo "私は".$name."です";
 }  else {
     echo "あなたの名前ではありません";
 }
-echo "\n";
+echo "\n"; 
 $total = 0;
 for ($i = 0; $i <= 10000; $i++) {
     $total +=$i;
