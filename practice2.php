@@ -1,6 +1,6 @@
 <?php
 function numberTwice($num){
-    echo $num + $num;
+    return $num + $num;
 }
 echo numberTwice(5);
 
@@ -8,7 +8,7 @@ echo "\n";
 
 function f($a, $b){
  //処理したい内容
-    echo $a + $b;
+    return $a + $b;
  }
 echo f(3,5);
 
@@ -18,7 +18,7 @@ $arr = [1,3,5,7,9];
 function arrayTimes($arr){
     $result = $arr[0];
     foreach($arr as $ar) {
-        echo $result *= $ar;
+        return $result *= $ar;
     }
 }
 
@@ -73,17 +73,3 @@ echo "October 3, 2020 is on a " . date("l", mktime(0, 0, 0, 10, 3, 2020));
  
  
  ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
