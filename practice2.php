@@ -18,8 +18,9 @@ $arr = [1,3,5,7,9];
 function arrayTimes($arr){
     $result = $arr[0];
     foreach($arr as $ar) {
-        return $result *= $ar;
+        $result *= $ar;
     }
+    return $result;
 }
 
 echo arrayTimes($arr);
